@@ -328,8 +328,8 @@ def main():
 
     logger.info('Download complete, open with Serial Number: ' + devices[choice]['deviceSerialNumber'])
 
-    print("\n\nAll done!\nNow you can use apprenticeharper's DeDRM tools " \
-          "(https://github.com/apprenticeharper/DeDRM_tools)\n" \
+    print("\n\nAll done!\nNow you can use noDRM's DeDRM tools " \
+          "(https://github.com/noDRM/DeDRM_tools)\n" \
           "with the following serial number to remove DRM: " +
           devices[choice]['deviceSerialNumber'])
 
