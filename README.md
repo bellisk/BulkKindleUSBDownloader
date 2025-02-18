@@ -46,6 +46,8 @@ I recommend using the LOGFILE variable to save your output, it will note the ASI
 any books it fails to download, so you can fill those in with a second pass or else
 manually download them.
 
+If running on MacOS you must use the --showbrowser option, as xvfb isn't supported, however with this option the script will work.
+
 ## Usage
 
 1. Install requirements:
